@@ -1,19 +1,22 @@
 {
-  "course": "WebDon",
-  "semester": 3,
-  "year": 2024,
-  "students": [
-    {
-      "name": "Robin",
-      "lastname": "Chappalley"
-    },
-    {
-      "name": "Estelle",
-      "lastname": "Bourget"
-    },
-    {
+  "courses": [{
+    "title": "WebDon",
+    "semester": 3,
+    "year": 2024,
+    "teacher": " Wenger",
+    "students": [
+      {
+        "name": "Robin",
+        "lastname": "Chappalley"
+      },
+      {
+        "name": "Estelle",
+        "lastname": "Bourget"
+      },
+      {
         "name": "Léa",
-        "lastname" : "Pasla"
-    }
-  ]
+        "lastname": "Pasla"
+      }
+    ]
+  }]
 }
