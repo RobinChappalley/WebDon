@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Root element -->
+<biblio>
+  <!-- First child -->
+  <game>
+    <!-- Title children element -->
+    <title>Starfield</title>
+    <editor>Bethesda Game Studios</editor>
+    <release>2023</release>	    
+  </game>
+  <game>
+    <titre>Super Mario Bros. Wonder</titre>
+    <editor>Nintendo</editor country="Japan">
+    <release>202<!-- Release on October 23 -->3</release>
+  </game>
+  <game>
+    <titre>Doom</titre>
+    <editor country="US">id Software</editor>
+    <release>"93</release>
+  </game>
+</biblio>
