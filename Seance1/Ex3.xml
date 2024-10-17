@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+    <pokemon id="3274080005003 ">
+        <fightPower type="points">71</fightPower>
+        <defense type="points">5.5</defense>
+        <sensibilities>
+            <sensibility>
+                <type>Water</type>
+                <strength type="points">20</strength>
+            </sensibility>
+            <sensibility>
+                <type>Electrik</type>
+                <strength type="points">1</strength>
+            </sensibility>
+        </sensibilities>
+    </pokemon>
+    <pokemon id="3268840001008 ">
+        <fightPower type="points">71</fightPower>
+        <defense type="points">5.5</defense>
+        <sensibilities>
+            <sensibility>
+                <type>Water</type>
+                <strength type="points">20</strength>
+            </sensibility>
+            <sensibility>
+                <type>Electrik</type>
+                <strength type="points">1</strength>
+            </sensibility>
+        </sensibilities>
+    </pokemon>
+    <pokemon id="3057640117008 ">
+        <fightPower type="points">71</fightPower>
+        <defense type="points">5.5</defense>
+        <sensibilities>
+            <sensibility>
+                <type>Water</type>
+                <strength type="points">20</strength>
+            </sensibility>
+            <sensibility>
+                <type>Electrik</type>
+                <strength type="points">1</strength>
+            </sensibility>
+        </sensibilities>
+    </pokemon>
+</root>
