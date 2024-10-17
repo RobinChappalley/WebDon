@@ -1,0 +1,33 @@
+{
+  "events": [
+    {
+      "id": "event1",
+      "name": "Event 1",
+      "date-format": "YYYY-MM-DD",
+      "date": "1998-09-07",
+      ""
+      "main-setter": {
+        "firstname": "Paulo",
+        "name": "Lasticot"
+      },
+      "assistant-setter": {
+        "firstname": "Marie",
+        "name": "Lasticot"
+      },
+      "participants": [
+        {
+          "firstname": "Monsieur",
+          "name": "P"
+        },
+        {
+          "firstname": "Madame",
+          "name": "M"
+        },
+        {
+          "firstname": "Monsieur",
+          "name": "L"
+        }
+      ]
+    }
+  ]
+}
