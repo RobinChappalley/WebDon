@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document>
+  <entete>
+    <titre>Document à corriger</titre>
+    <auteur>Stéphane Crozat</auteur>
+    <date>01-03-01</date>
+    <version numero="1" />
+  </entete>
+  <corps>
+    <division titre="Première partie">
+      <paragraphe>Ce texte doit être <important>corrigé</important></paragraphe>
+      <paragraphe>Le contenu est sans importance ici</paragraphe>
+    </division>
+    <division titre="Seconde partie">
+      <paragraphe>Ai-je le droit de mettre du texte ici ?</paragraphe>
+    </division>
+  </corps>
+</document>
