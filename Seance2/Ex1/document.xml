@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<authors>
+    <person birthdate="2024-10-31" alive="true">
+        <firstname>Jean</firstname>
+        <lastname>Monnet</lastname>
+        <deathdate>1998-09-07</deathdate>
+        <book>Why not</book>
+    </person>
+</authors>
