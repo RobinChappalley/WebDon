@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- <xs:simpleType name="tooLongName">
+  <xs:restriction base="xs:string">
+    <xs:maxLength value="20" />
+  </xs:restriction> -->
+    <!-- </xs:simpleType> -->
+    <xs:element name="movies">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="movie" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string"></xs:element>
+                            <xs:element name="director" type="xs:string" maxOccurs="unbounded"></xs:element>
+                            <xs:element name="release_date" type="xs:date"></xs:element>
+                            <xs:element name="budget" type="xs:string"></xs:element>
+                            <xs:element name="duration">
+                                <xs:complexType>
+                                    <xs:attribute name="minutes" type="xs:int"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="country" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="CH"></xs:enumeration>
+                                    <xs:enumeration value="UK"></xs:enumeration>
+                                    <xs:enumeration value="US"></xs:enumeration>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
