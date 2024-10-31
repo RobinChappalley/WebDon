@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE entete [
+    <!ELEMENT entete (titre, date, auteur+, motscles*, resume?)>
+    <!ELEMENT titre (#PCDATA)>
+    <!ELEMENT date (#PCDATA)>
+    <!ELEMENT auteur (#PCDATA)>
+    <!ELEMENT motscles (#PCDATA)>
+    <!ELEMENT resume (paragraphe+)>
+    <!ELEMENT paragraphe (#PCDATA)>
+]>
+<entete>
+    <titre></titre>
+    <date></date>
+    <auteur></auteur>
+</entete>
