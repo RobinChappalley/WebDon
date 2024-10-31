@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--file.xml-->
+<!DOCTYPE papier [
+    <!ELEMENT papier (titre, sousTitre?, auteur, resume, abstract, motsCles, (version | ressource)*)>
+    <!ELEMENT titre (#PCDATA)>
+    <!ELEMENT sousTitre (#PCDATA)>
+    <!ELEMENT auteur (#PCDATA)>
+    <!ELEMENT resume (#PCDATA)>
+    <!ELEMENT motsCles (#PCDATA)>
+    <!ELEMENT version (#PCDATA)>
+    <!ELEMENT ressource EMPTY>
+]>
+
+
+<papier>
+    <titre>Réinterroger les structures documentaires</titre>
+    <auteur>Stéphane Crozat</auteur>
+    <auteur>Bruno Bachimont</auteur>
+    <resume>Nous proposons dans cet article d'aborder ...</resume>
+    <abstract>In this paper we define...</abstract>
+    <motsCles>
+        <terme>Ingénierie des connaissances</terme>
+        <terme>Document</terme>
+    </motsCles>
+    <version num="1" />
+    <ressource src="sic_00001016.pdf" />
+</papier>
