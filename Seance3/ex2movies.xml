@@ -1,0 +1,214 @@
+<!-- Les titres de tous les films. //titre/text() -->
+<!-- Les titres de tous les films ou joue ldc. //film[role/acteur='Leonardo DiCaprio']/titre -->
+<!-- les types de films répertoriés //film/@type -->
+<!-- les rôles joués par leonardo dicaprio //role[acteur="Leonardo DiCaprio"]/nom -->
+<!-- L'acteur principal de chaque film //role[1]/acteur -->
+<cinema>
+    <film id="lb78" type="comédie">
+        <titre>Les Bronzés</titre>
+        <annee>1978</annee>
+        <realisateur>Patrice Leconte</realisateur>
+        <role>
+            <nom>Popeye</nom>
+            <acteur>Thierry Lhermite</acteur>
+        </role>
+        <role>
+            <nom>Jean-Claude Dusse</nom>
+            <acteur>Michel Blanc</acteur>
+        </role>
+    </film>
+    <film id="gf94" type="comédie">
+        <titre>Grosse fatigue</titre>
+        <annee>1994</annee>
+        <realisateur>Michel Blanc</realisateur>
+        <role>
+            <nom>Patrick Olivier</nom>
+            <acteur>Michel Blanc</acteur>
+        </role>
+        <role>
+            <nom>Carole Bouquet</nom>
+            <acteur>Carole Bouquet</acteur>
+        </role>
+        <prix>Cannes, meilleur scénario</prix>
+    </film>
+    <producteur>
+        <nom>Daniel Toscan du Plantier</nom>
+        <film ref="gf94"/>
+    </producteur>
+    <producteur>
+        <nom>Yves Rousset-Rouard</nom>
+        <film ref="lb78"/>
+    </producteur>
+    <film id="dk11" type="action">
+        <titre>The Dark Knight</titre>
+        <annee>2008</annee>
+        <realisateur>Christopher Nolan</realisateur>
+        <role>
+            <nom>Bruce Wayne / Batman</nom>
+            <acteur>Christian Bale</acteur>
+        </role>
+        <role>
+            <nom>The Joker</nom>
+            <acteur>Heath Ledger</acteur>
+        </role>
+    </film>
+    <producteur>
+        <nom>Warner Bros.</nom>
+        <film ref="dk11"/>
+    </producteur>
+    <producteur>
+        <nom>DC Comics</nom>
+        <film ref="dk11"/>
+    </producteur>
+    <film id="sh98" type="drame">
+        <titre>Shawshank Redemption</titre>
+        <annee>1994</annee>
+        <realisateur>Frank Darabont</realisateur>
+        <role>
+            <nom>Andy Dufresne</nom>
+            <acteur>Tim Robbins</acteur>
+        </role>
+        <role>
+            <nom>Ellis Boyd "Red" Redding</nom>
+            <acteur>Morgan Freeman</acteur>
+        </role>
+    </film>
+    <film id="sw77" type="science-fiction">
+        <titre>Star Wars: Episode IV - A New Hope</titre>
+        <annee>1977</annee>
+        <realisateur>George Lucas</realisateur>
+        <role>
+            <nom>Luke Skywalker</nom>
+            <acteur>Mark Hamill</acteur>
+        </role>
+        <role>
+            <nom>Princess Leia Organa</nom>
+            <acteur>Carrie Fisher</acteur>
+        </role>
+    </film>
+    <film id="gt02" type="comédie">
+        <titre>Groundhog Day</titre>
+        <annee>1993</annee>
+        <realisateur>Harold Ramis</realisateur>
+        <role>
+            <nom>Phil Connors</nom>
+            <acteur>Bill Murray</acteur>
+        </role>
+        <role>
+            <nom>Rita Hanson</nom>
+            <acteur>Andie MacDowell</acteur>
+        </role>
+    </film>
+    <film id="av09" type="drame">
+        <titre>Avatar</titre>
+        <annee>2009</annee>
+        <realisateur>James Cameron</realisateur>
+        <role>
+            <nom>Neytiri</nom>
+            <acteur>Zoe Saldana</acteur>
+        </role>
+        <prix>Oscars, meilleur photographie</prix>
+        <prix>Oscars, meilleur effets visuels</prix>
+    </film>
+    <film id="fo01" type="drame">
+        <titre>Forrest Gump</titre>
+        <annee>1994</annee>
+        <realisateur>Robert Zemeckis</realisateur>
+        <role>
+            <nom>Forrest Gump</nom>
+            <acteur>Tom Hanks</acteur>
+        </role>
+        <role>
+            <nom>Jenny Curran</nom>
+            <acteur>Robin Wright</acteur>
+        </role>
+    </film>
+    <film id="ts01" type="animation">
+        <titre>Toy Story</titre>
+        <annee>1995</annee>
+        <realisateur>John Lasseter</realisateur>
+        <role>
+            <nom>Woody</nom>
+            <acteur>Tom Hanks</acteur>
+        </role>
+        <role>
+            <nom>Buzz Lightyear</nom>
+            <acteur>Tim Allen</acteur>
+        </role>
+    </film>
+    <producteur>
+        <nom>Walt Disney Pictures</nom>
+        <film ref="ts01"/>
+    </producteur>
+    <producteur>
+        <nom>Pixar Animation Studios</nom>
+        <film ref="ts01"/>
+    </producteur>
+    <film id="gl15" type="drame">
+        <titre>The Revenant</titre>
+        <annee>2015</annee>
+        <realisateur>Alejandro González Iñárritu</realisateur>
+        <role>
+            <nom>Hugh Glass</nom>
+            <acteur>Leonardo DiCaprio</acteur>
+        </role>
+        <role>
+            <nom>John Fitzgerald</nom>
+            <acteur>Tom Hardy</acteur>
+        </role>
+        <prix>Oscars, meilleur réalisateur et meilleur acteur</prix>
+    </film>
+    <film id="t97" type="drame">
+        <titre>Titanic</titre>
+        <annee>1997</annee>
+        <realisateur>James Cameron</realisateur>
+        <role>
+            <nom>Jack Dawson</nom>
+            <acteur>Leonardo DiCaprio</acteur>
+        </role>
+        <role>
+            <nom>Rose DeWitt Bukater</nom>
+            <acteur>Kate Winslet</acteur>
+        </role>
+        <prix>Oscars, meilleur film</prix>
+        <prix>Oscars, meilleur photographie</prix>
+        <prix>Oscars, meilleur réalisation</prix>
+        <prix>Oscars, meilleur effets visuels</prix>
+        <prix>Oscars, meilleur montage</prix>
+    </film>
+    <film id="va13" type="comédie">
+        <titre>La vie d'Adèle</titre>
+        <annee>2013</annee>
+        <realisateur>Abdellatif Kechiche</realisateur>
+        <role>
+            <nom>Adèle</nom>
+            <acteur>Adèle Exarchopoulos</acteur>
+        </role>
+        <role>
+            <nom>Emma</nom>
+            <acteur>Léa Seydoux</acteur>
+        </role>
+        <prix>Palmes d'Or à Cannes</prix>
+    </film>
+    <producteur>
+        <nom>Vincent Maraval</nom>
+        <film ref="va13"/>
+    </producteur>
+    <film id="rn13" type="annimation">
+        <titre>La reine des neige</titre>
+        <annee>2013</annee>
+        <realisateur>Christian Desmares</realisateur>
+        <role>
+            <nom>Anna</nom>
+            <acteur>Kristen Bell</acteur>
+        </role>
+        <role>
+            <nom>Elsa</nom>
+            <acteur>Idina Menzel</acteur>
+        </role>
+    </film>
+    <producteur>
+        <nom>Walt Disney Pictures</nom>
+        <film ref="rn13"/>
+    </producteur>
+</cinema>

@@ -1,0 +1,118 @@
+<world>
+    <continent id="afrique">
+        <nom>Afrique</nom>
+    </continent>
+    <continent id="amerique-nord">
+        <nom>Amérique du Nord</nom>
+    </continent>
+    <continent id="amerique-sud">
+        <nom>Amérique du Sud</nom>
+    </continent>
+    <continent id="asie">
+        <nom>Asie</nom>
+    </continent>
+    <continent id="europe">
+        <nom>Europe</nom>
+    </continent>
+    <continent id="oceanie">
+        <nom>Océanie</nom>
+    </continent>
+    <continent id="antarctique">
+        <nom>Antarctique</nom>
+    </continent>
+
+    <pays>
+        <nom>France</nom>
+        <continent ref="europe" />
+        <langue>Français</langue>
+        <monnaie>Euro</monnaie>
+    </pays>
+    <pays>
+        <nom>Brésil</nom>
+        <continent ref="amerique-sud" />
+        <langue>Portugais</langue>
+        <monnaie>Réal brésilien</monnaie>
+    </pays>
+    <pays>
+        <nom>Australie</nom>
+        <continent ref="oceanie" />
+        <langue>Anglais</langue>
+        <monnaie>Dollar australien</monnaie>
+    </pays>
+    <pays>
+        <nom>Japon</nom>
+        <continent ref="asie" />
+        <langue>Japonais</langue>
+        <monnaie>Yen japonais</monnaie>
+    </pays>
+    <pays>
+        <nom>Afrique du Sud</nom>
+        <continent ref="afrique" />
+        <langue>Afrikaans, Anglais, Zoulou, Xhosa</langue>
+        <monnaie>Rand sud-africain</monnaie>
+    </pays>
+    <pays>
+        <nom>Suisse</nom>
+        <continent ref="europe" />
+        <langue>Allemand, Français, Italien, Romanche</langue>
+        <monnaie>Franc suisse</monnaie>
+    </pays>
+    <pays>
+        <nom>Allemagne</nom>
+        <continent ref="europe" />
+        <langue>Allemand</langue>
+        <monnaie>Euro</monnaie>
+    </pays>
+    <pays>
+        <nom>Autriche</nom>
+        <continent>Europe</continent>
+        <langue>Allemand</langue>
+        <monnaie>Euro</monnaie>
+    </pays>
+</world>
+
+<!-- 1. France, Brésil, Australie, Japon, Afrique du Sud, Suisse, Allemagne, Autriche -->
+<!-- 2. <pays>
+    <pays>
+      <nom>Autriche</nom>
+      <continent>Europe</continent>
+      <langue>Allemand</langue>
+      <monnaie>Euro</monnaie>
+    </pays>  -->
+<!-- 3. <pays>
+      <nom>France</nom>
+          <continent ref="europe"/>
+      <langue>Français</langue>
+      <monnaie>Euro</monnaie>
+    </pays>,<pays>
+      <nom>Allemagne</nom>
+          <continent ref="europe"/>
+      <langue>Allemand</langue>
+      <monnaie>Euro</monnaie>
+    </pays>
+    <pays>
+      <nom>Autriche</nom>
+      <continent>Europe</continent>
+      <langue>Allemand</langue>
+      <monnaie>Euro</monnaie>
+    </pays -->
+
+<!-- 4.
+     France, Allemagne, Autriche
+      -->
+<!-- 5.
+      <nom>France</nom> -->
+<!-- 6.
+       -
+       -->
+<!-- 7
+ 7
+  -->
+<!-- 8.
+ 7
+  -->
+
+  <!-- challenge 1
+  France, Suisse
+
+  -->
